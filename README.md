@@ -1,1 +1,1 @@
-# This repository contains the contents of the research conducted in line with the course "Guided Research Methods"
+This repository contains the contents of the research conducted in line with the course "Guided Research Methods"
