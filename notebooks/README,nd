@@ -1,0 +1,3 @@
+This folder contains the IPython notebooks used for experimentation and testing purposes. It should be noted that the notebooks are not necessarily in chronological order and may contain redundant code. Furthermore, the notebooks are not intended to be used as a standalone codebase. The code is not optimized for production use and may contain bugs.
+
+> **Note:** The main codebase for this project is available in the `src` folder. The notebooks are provided for reference purposes only.
