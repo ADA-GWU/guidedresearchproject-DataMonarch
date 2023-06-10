@@ -16,3 +16,14 @@ Furthermore, the presence of outliers in cryptocurrency data can affect the perf
 Last, but not least, I am planning to analyze the interpretability and visualization of the inner layers of these models to gain insights into their predictive power.
 
 
+## Technical Objectives
+
+The technical objectives of this research project include:
+
+* **Comparative Analysis**: Evaluate and compare the performance of various deep learning models, including ARIMA-family models, Prophet, RNN, LSTM, and Temporal-fusion Transformers for cryptocurrency price prediction. Assess their ability to capture the complex dynamics and non-linear patterns of cryptocurrency price data.
+
+* **Outlier Removal Techniques**: Investigate the impact of different outlier removal techniques on the predictive power of the deep learning models. Explore methods such as statistical measures, anomaly detection algorithms, or data preprocessing techniques to mitigate the influence of outliers on model performance. Special efforts will be exerted to test the feasibility of SR-CNN architecture models for outlier detection, a technique borrowed from the Computer Vision domain
+
+* **Inner Layer Interpretability and Visualization**: Analyze the inner layers of deep learning models to interpret and visualize their decision-making processes. Explore techniques such as activation maximization, gradient-based visualization, or saliency maps to gain insights into the features and patterns that drive the models' predictions.
+
+
