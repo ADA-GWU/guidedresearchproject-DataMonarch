@@ -27,3 +27,18 @@ The technical objectives of this research project include:
 * **Inner Layer Interpretability and Visualization**: Analyze the inner layers of deep learning models to interpret and visualize their decision-making processes. Explore techniques such as activation maximization, gradient-based visualization, or saliency maps to gain insights into the features and patterns that drive the models' predictions.
 
 
+## Work Plan
+
+The proposed work plan for this research project is as follows:
+
+### Weeks 1-5:
+
+* Data Collection and Preparation: Gather historical cryptocurrency price data, along with relevant auxiliary data such as trading volume and market sentiment indicators. Preprocess the data by handling missing values, normalizing features, and identifying outliers. The data will be gathered using the free API offered by https://tradingstrategy.ai
+This data is a 1 minute aggregation of the market data across any cryptocurrency token with its USD equivalent.
+
+* Model Implementation: Implement and train the selected deep learning models, including ARIMA-family models, Prophet, RNN, GRU, LSTM, and Temporal-fusion Transformers. Utilize suitable Python-based deep learning frameworks, such as TensorFlow or PyTorch, to develop and train the models on the prepared dataset
+
+* Comparative Analysis: Conduct a comprehensive comparative analysis of the deep learning models, evaluating their performance metrics such as root mean squared error, mean absolute error, mean absolute percentage error or directional accuracy. Compare the results with and without outlier removal techniques to assess the impact on model performance.
+
+### Weeks 6-11:
+* Inner Layer Interpretability and Visualization: Explore interpretability techniques to analyze the inner layers of the deep learning models. Visualize the learned representations, activation patterns, or attention maps to gain insights into the models' decision-making processes and identify important features driving the predictions.
