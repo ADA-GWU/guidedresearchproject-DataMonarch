@@ -46,12 +46,18 @@ The below given snippets offer a glance at the data for both cryptocurrencies (v
 
 ```python
 # Bitcoin Data
-btc.head()
+btc.head(10)
 ```
 ![btc](image.png)
 
 ```python
 # DOT Data
-dot.head()
+dot.head(10)
 ```
+![Alt text](image-1.png)
 
+> **Ps.** The code for the data cleaning process can be found in the `edap.ipynb` file in the [`notebooks` folder](https://github.com/ADA-GWU/guidedresearchproject-DataMonarch/tree/main/notebooks).
+
+The below image demonstrates the unusual first price phenomenon with the DOT token. It is for this reason that the first 1000 observations were removed from the dataset.
+
+![Alt text](image-2.png)
