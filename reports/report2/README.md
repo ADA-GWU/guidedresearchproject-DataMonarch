@@ -41,3 +41,17 @@ The data cleaning process was fairly straightforward as it was already in a tidy
 It should, however, be mentioned that due to the nature of blockchain platforms, some cryptocurrencies experience very unstable price values during the initial stages of their launch which, in this case, coincides with an airdrop in large quantities in the case of DOT. That is why a certain amount of data was removed from the beginning of the time series to ensure that the model is trained on the data that is more representative of the actual price behavior of the token.
 
 Another noteworthy point is the presence of periods of exceptionally high volatility for both cryptocurrencies. Despite demonstrating an outlier-like behavior, these periods were not removed from the data as they had a sufficient build-up period. This indicates that the mentioned observations are in allignment with the nature of the blockchain-based tokens. 
+
+The below given snippets offer a glance at the data for both cryptocurrencies (variable names are in accordance with the original dataset):
+
+```python
+# Bitcoin Data
+btc.head()
+```
+![btc](image.png)
+
+```python
+# DOT Data
+dot.head()
+```
+
